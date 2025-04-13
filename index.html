@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dasbor Pribadi</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Dasbor Pribadi Mahasiswa</h1>
+    </header>
+
+    <section class="panel" id="catatan">
+      <h2>Catatan Singkat</h2>
+      <form id="form-catatan">
+        <input type="text" id="input-catatan" placeholder="Tulis catatan di sini..." required />
+        <button>Tambah Catatan</button>
+      </form>
+      <div id="daftar-catatan" class="catatan-kartu"></div>
+    </section>
+
+    <div class="grid-container">
+      <main class="utama">
+        <section class="panel" id="kuliah">
+          <h2>Agenda Kuliah</h2>
+          <form id="form-kuliah">
+            <input type="text" id="input-kuliah" placeholder="Contoh: Jumat - Statistika 09:00" required />
+            <button>Tambah Agenda</button>
+          </form>
+          <ul id="daftar-kuliah"></ul>
+        </section>
+
+        <section class="panel" id="pekerjaan">
+          <h2>Catatan Tugas</h2>
+          <form id="form-tugas">
+            <input type="text" id="input-tugas" placeholder="Contoh: UTS Matematika - DL: 15 April" required />
+            <button>Tambah Tugas</button>
+          </form>
+          <ul id="daftar-tugas"></ul>
+        </section>
+      </main>
+
+      <aside class="samping panel" id="todo-list">
+        <h2>Aktivitas Harian</h2>
+        <form id="form-todo">
+          <input type="text" id="input-todo" placeholder="Contoh: Review materi SQL" required />
+          <button>Tambah Kegiatan</button>
+        </form>
+        <ul id="daftar-todo"></ul>
+      </aside>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
