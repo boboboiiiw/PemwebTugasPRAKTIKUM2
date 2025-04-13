@@ -32,7 +32,7 @@
 > 📸 Berikut adalah tampilan antarmuka aplikasi setelah digunakan:
 
 ### 📌 Dashboard Utama
-![Dashboard Screenshot](screenshots/dashboard-main.png) 
+![Dashboard Screenshot]( Screenshot 2025-04-13 215858.png) 
 
 ### 🗒️ Tampilan Memo & Tugas
 ![Memo Screenshot](screenshots/memo-view.png)
